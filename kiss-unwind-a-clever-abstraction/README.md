@@ -16,7 +16,7 @@ Each folder holds the complete `parking_fee.py` after that step, and every one c
 |---|---|---|
 | [01](step-01-a-rule-engine-for-one-fee/) | A rule engine for one fee: charge works out a parking fee by running named rules from a dict, in the order a list of strings gives. | Before |
 | [02](step-02-the-new-rule-has-to-sit-in-the-right-slo/) | The new rule has to sit in the right slot: Electric cars now park the first two hours free. The ev rule only works if it runs after base and before cap. | Code smell |
-| [03](step-03-back-it-out-then-simplify/) | Back it out, then simplify: The ev rule comes out. We unwind the registry one safe step at a time and add electric cars afterwards. | Plan |
+| [03](step-03-back-it-out-then-simplify/) | Back it out, then simplify: The ev rule comes out. We inline the registry one safe step at a time and add electric cars afterwards. | Plan |
 | [04](step-04-there-is-only-one-plan/) | There is only one plan: fee no longer takes a plan. The single list moves inside it, and charge only passes the ticket. | Remove Parameter |
 | [05](step-05-three-lines-instead-of-a-loop/) | Three lines instead of a loop: The loop over a fixed list becomes three calls, written in the order the list gave. | Unroll Loop |
 | [06](step-06-inline-the-base-rule/) | Inline the base rule: The lookup for base is replaced with the body of its lambda. Base never read the starting zero, so that line goes too. | Inline Function |
