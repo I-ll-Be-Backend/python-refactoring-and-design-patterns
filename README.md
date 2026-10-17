@@ -14,6 +14,7 @@ Code from the [I'll Be Backend](https://www.youtube.com/@illbebackend) videos: m
 |---|---|---|---|
 | [DRY: one rule, one place](dry/) | 10 | [Watch](https://www.youtube.com/watch?v=JoxpOg_EUKk) | [Open](https://illbebackend.dev/lessons/dry/python/) |
 | [Clean code: extract until it reads](extract-until-it-reads/) | 10 | [Watch](https://www.youtube.com/watch?v=3j1OZbFiHuE) | [Open](https://illbebackend.dev/lessons/extract-until-it-reads/python/) |
+| [KISS: replace a rule engine with plain code](kiss-unwind-a-clever-abstraction/) | 13 | [Watch](https://www.youtube.com/watch?v=NyHkiXTk7tg) | [Open](https://illbebackend.dev/lessons/kiss-unwind-a-clever-abstraction/python/) |
 | [Clean code: rename for intent](rename-for-intent/) | 13 | [Watch](https://www.youtube.com/watch?v=RjxRafFFAiA) | [Open](https://illbebackend.dev/lessons/rename-for-intent/python/) |
 
 ## How to use it
